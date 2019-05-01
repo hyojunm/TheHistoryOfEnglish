@@ -103,7 +103,7 @@ p,a,li {
 	border: 2px solid #d8cfb6;
 	width: 47%;
 	text-align: center;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .item:hover {
