@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Digital Breakout Game Player v1.1</title>
+	<title>Digital Breakout Game Player v1.1.0</title>
 	<link rel="icon" type="32x32" href="../../files/img/logo_image.png">
 
 	<meta charset="UTF-8">
@@ -29,7 +29,7 @@
 		<center>
 			<h1>Breakout Game is Currently Unavailable</h1>
 			<p><b>Status:</b> In progress</p>
-			<p><b>Expected Completion Date:</b> May 2nd, 2019</p>
+			<p><b>Expected Completion Date:</b> May 12, 2019</p>
 		</center>
 
 		<!-- <div id="welcome" style="display: none;">
@@ -87,16 +87,18 @@
 			</p>
 
 			<p>
-				After twelve minutes of searching around the room, you an old cassette player
+				After twelve minutes of searching around the room, you find an old cassette player. 
 			</p>
 
 			<div class="clue">
+				<h3>Cassette Player</h3>
 				<audio src="../clues/EnglishBreakout_39184832.wav" controls></audio>
-			</div>
+			</div><br><br>
 
 			<center>
 				<input type="text" id="LockI" class="text" maxlength="4" placeholder="Four-digit Number Lock"><br>
-				<button class="next btn breakoutBtn">UNLOCK</button>
+				<button class="next btn breakoutBtn" id="unlock1">UNLOCK</button>
+				<p class="incorrectMsg"></p>
 			</center>
 		</div>
 

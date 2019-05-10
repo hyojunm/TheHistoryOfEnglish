@@ -163,6 +163,13 @@ p,a,li {
 	font-size: 36px;
 }
 
+.clue {
+	margin: auto;
+	width: 400px;
+	padding: 16px;
+	border: 2px solid #d8cfb6;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
